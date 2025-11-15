@@ -30,7 +30,7 @@ body {
 }
 
 .box1{
-  background-color: blueviolet;
+  background-color:  blueviolet;
   border-radius: 15px;
   flex-wrap: wrap;
 }
@@ -204,7 +204,7 @@ body {
 }
 
 .pat{
-; display: flex;
+ display: flex;
  margin: 10px
 }
 
@@ -271,4 +271,19 @@ body {
   font-weight: bolder;
 }
 
+  }  
+
+
+  @media (max-width:768px) {
+  .container{
+    grid-template-columns: 220px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "box1"
+    "box2"
+    "box3"
+    "box4"
+    "box5";
   }
+
+}
